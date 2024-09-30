@@ -1,0 +1,37 @@
+.image{
+    background-image: url(./main.png.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 1065px 600px; */
+    height: 422px;
+    width: 95%;
+    margin-left: 26px;
+   
+}
+h3{
+    color: beige;
+    font-weight: lighter;
+    margin-left: 27px;
+    /* font-style: italic; */
+    margin-top: 50px;
+    
+}
+p{
+    /* color: beige; */
+    font-weight: normal;
+    margin-left: 27px;
+    /* font-style: italic; */
+    /* margin-top: 50px;  */
+}
+.gaya{
+    padding: 73px;
+    margin-left: -64px;
+}
+@media all and  (max-width: 320px) {
+    .image{
+        width: 100%;
+
+    }
+
+  
+    
+}
