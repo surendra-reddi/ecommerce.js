@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.js">
 </head>
 
 <body>
@@ -51,7 +52,43 @@
         </div>
       </div>
     </div>
-  </nav><br><br>
+  </nav><br>
+  <div class="d-flex justify-content-center border-bottom border-2">
+    <h4>Latest Products</h4>
+  </div><br>
 
+  <div class="container">
+    <div class="row m-5">
+      <div class="col-sm-none col-lg-1 col-md-none"></div>
+      <div class="col-sm-12 col-lg-1 mb-2 col-md-6">
+        <button type="button" onclick="add('all')" class="btn btn-outline-dark me-2">All</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
+        <button type="button" onclick="add('men\'s clothing')" class="btn btn-outline-dark me-2 fs-6 fw-normal " style= 'width:130px;' id="mensClothing">Mens Clothing</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6 me-0" style="width: 194px;">
+        <button type="button" onclick="add('women\'s clothing')" class="btn btn-outline-dark me-2">Womens Clothing</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
+        <button type="button" onclick="add('jewelery')" class="btn btn-outline-dark me-2">jewelery</button>
+      </div>
+      <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
+        <button type="button" onclick="add('electronics')" class="btn btn-outline-dark">Electronics</button>
+      </div>
+      <!-- <div class="col-sm-none col-lg-1 col-md-none"></div> -->
+   </div>
+</div>
+
+<div class="container">
+  <div class="row " id="row">
+    </div>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+      <p>Made with <span>&#x2764;by <a href="">Surendra Reddi</a></span></p>
+    </div>
+  
+
+<script src="home.js"></script>
 </body>
 </html>
