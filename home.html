@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,7 +39,7 @@
             <div>
               <a href="#"><button type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i>Login</button></a>
               <a href="#"><button type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i>Register</button></a>
-              <a href="cart-js.html"><button type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i>Cart(0)</button></a>
+              <a href="cart-js.html" class="text-decoration-none text-dark"><button type="button" class="btn btn-outline-dark ms-2"><i class="fa-solid fa-cart-shopping"></i> Cart <span id="count">0</span> </button></a>
             </div>
           </div>
         </div>
@@ -71,19 +72,19 @@
         <div class="row m-5">
           <div class="col-sm-none col-lg-1 col-md-none"></div>
           <div class="col-sm-12 col-lg-1 mb-2 col-md-6">
-            <button type="button" class="btn btn-outline-dark me-2">All</button>
+            <button type="button" onclick="add('all')" class="btn btn-outline-dark me-2">All</button>
           </div>
           <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
-            <button type="button" class="btn btn-outline-dark me-2 fs-6 fw-normal " style= 'width:130px;' id="mensClothing">Mens Clothing</button>
+            <button type="button" onclick="add('men\'s clothing')" class="btn btn-outline-dark me-2 fs-6 fw-normal " style= 'width:130px;' id="mensClothing">Mens Clothing</button>
           </div>
           <div class="col-sm-12 col-lg-2 mb-2 col-md-6 me-0" style="width: 194px;">
-            <button type="button" class="btn btn-outline-dark me-2">Womens Clothing</button>
+            <button type="button" onclick="add('women\'s clothing')" class="btn btn-outline-dark me-2">Womens Clothing</button>
           </div>
           <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
-            <button type="button" class="btn btn-outline-dark me-2">Jewelery</button>
+            <button type="button" onclick="add('jewelery')" class="btn btn-outline-dark me-2">jewelery</button>
           </div>
           <div class="col-sm-12 col-lg-2 mb-2 col-md-6">
-            <button type="button" class="btn btn-outline-dark">Electronics</button>
+            <button type="button" onclick="add('electronics')" class="btn btn-outline-dark">Electronics</button>
           </div>
           <!-- <div class="col-sm-none col-lg-1 col-md-none"></div> -->
        </div>
@@ -108,7 +109,15 @@
         </div>
       </div> -->
     </div>
+  </div><br>
+  <div class="container d-flex justify-content-center">
+    <p>Made with <span>&#x2764;by <a href="">Surendra Reddi</a></span></p>
   </div>
+
+
+  
     <script src="home.js"></script> 
+
+    
 </body>
 </html>
