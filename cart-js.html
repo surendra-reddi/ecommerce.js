@@ -20,44 +20,34 @@
             <div class="ms-5"></div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Home</a>
+                <a class="nav-link " aria-current="page" href="home.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
+                <a class="nav-link" href="products.html">Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about-js.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
+                <a class="nav-link active" href="contact-js.html">Contact</a>
               </li>
              
             </ul>
             <div>
               <a href="#"><button type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i>Login</button></a>
               <a href="#"><button type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i>Register</button></a>
-              <a href="cart-js.html"><button type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i>Cart(0)</button></a>
-            </div>
+              <a href="cart-js.html" class="text-decoration-none text-dark"><button type="button" class="btn btn-outline-dark ms-2"><i class="fa-solid fa-cart-shopping"></i> Cart <span id="count">0</span>  </button></a>            </div>
           </div>
         </div>
       </nav><br><br>
-
-      <div class="container d-flex justify-content-center border-bottom border-2">
-        <h5>Cart</h5>
-      </div><br><br>
-
-      <div class="container d-flex justify-content-center">
-        <h3>Your Cart Is Empty</h3>
-      </div><br><br><br>
-
-      <div class="d-flex justify-content-center">
-        <a href="home-js.html"><button type="button" class="btn btn-secondary " disabled><i class="fa-solid fa-arrow-left"></i>Continue Shopping</button></a>
-      </div><br><br>
-
-      <div class="container d-flex justify-content-center">
-        <p>Made with <span>&#x2764;by <a href="">Surendra Reddi</a></span></p>
-      </div>
+      <div class="container my-5">
+        <div class="row" id="cart">
+          <div class="row" id="cart1"></div>
+          </div>
+        </div>
+     
     
-    
+    <script src="cart.js"></script>
+    <script src="home.html"></script>
 </body>
 </html>
